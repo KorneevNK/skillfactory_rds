@@ -1,0 +1,56 @@
+Id,Answer
+1,"491    The Warrior's Way (tt1032751)
+Name: answer, dtype: object"
+2,"1158    Gods and Generals (tt0279111)
+Name: answer, dtype: object"
+3,"769    Winnie the Pooh (tt1449283)
+Name: answer, dtype: object"
+4,110
+5,106
+6,"239    Avatar (tt0499549)
+Name: answer, dtype: object"
+7,"491    The Warrior's Way (tt1032751)
+Name: answer, dtype: object"
+8,1478
+9,"600    The Dark Knight (tt0468569)
+Name: answer, dtype: object"
+10,"1246    The Lone Ranger (tt1210819)
+Name: answer, dtype: object"
+11,Drama
+12,Drama
+13,Steven Soderbergh
+14,Ridley Scott
+15,"727    Peter Jackson
+Name: director, dtype: object"
+16,"1034    Emma Watson
+Name: cast, dtype: object"
+17,"253    Kirsten Dunst
+Name: cast, dtype: object"
+18,Matt Damon
+19,Action
+20,"counter    Universal Pictures (Universal)
+dtype: object"
+21,"counter    Warner Bros.
+dtype: object"
+22,"income    Universal Pictures (Universal)
+dtype: object"
+23,"income    Columbia Pictures
+dtype: object"
+24,"income    K-19: The Widowmaker (tt0267626)
+dtype: object"
+25,"income    2015
+dtype: int64"
+26,"income    2014
+dtype: int64"
+27,9
+28,450
+29,1
+30,6
+31,Four By Two Productions
+32,Four By Two Productions
+33,2461
+34,"{'Answer #1': ['Inside Out', 'Room', 'Interstellar', 'Guardians of the Galaxy', 'The Imitation Game', 'Gone Girl', 'The Grand Budapest Hotel', 'Inception', 'The Dark Knight', 'The Pianist', 'The Lord of the Rings: The Return of the King', 'The Wolf of Wall Street', '12 Years a Slave', 'Memento']}"
+35,"0    Daniel Radcliffe & Rupert Grint
+dtype: object"
+36,"151    Christopher Nolan
+Name: director, dtype: object"
