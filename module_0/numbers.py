@@ -17,20 +17,22 @@ def score_game(game_core):
 
 def game_core_v2(number):
     '''С каждой попыткой отыскиваем верхнюю и нижнюю границы для генерации случайного числа в этом диапазоне'''
-    count = 0
-    predict = 50
-    low = 1
-    high = 100
+    count = 1 # Первая попытка = 50
+    predict = 50 
+    low = 1 # Нижняя граница поиска
+    high = 101 # Верхняя граница поиска
 
     while number != predict:
-        count+=1
-        if predict>number:
-        	high=predict
+        count += 1
+        # Если загаданое число меньше нашей попытки - выше искать бессмысленно. Устанавливаем верхнюю границу
+        if predict > number:
+        	high = predict 
+        # Если загаданное число больше нашей попытки - ниже искать бессмысленно. Устанавливаем нижнюю границу
         else:
-        	low=predict + 1
+        	low = predict + 1 
 
-        predict=randint(low,high)
-
+        # Следующая попытка случайно число между новыми границами
+        predict = randint(low,high)
     return(count) # выход из цикла, если угадали
 
 # Проверяем
