@@ -33,6 +33,8 @@ def game_core_v2(number):
 
         # Следующая попытка случайно число между новыми границами
         predict = randint(low,high)
+        # predict = (low+high)//2 # Узнал об этом после отправки
+
     return(count) # выход из цикла, если угадали
 
 # Проверяем
